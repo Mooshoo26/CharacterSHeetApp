@@ -1,0 +1,213 @@
+[
+    {
+      "name": "Short Sword",
+      "damage": "2d4 Slashing",
+      "skill": "Blades",
+      "cost": 20,
+      "keywords": ["Bladed"]
+    },
+    {
+      "name": "Broadsword",
+      "damage": "2d6 Slashing",
+      "skill": "Blades",
+      "cost": 40,
+      "keywords": ["Bladed"]
+    },
+    {
+      "name": "Bastard Sword",
+      "damage": "2d6+1 Slashing",
+      "skill": "Blades",
+      "cost": 50,
+      "keywords": ["Bladed", "Hand & a Half"]
+    },
+    {
+      "name": "Longsword",
+      "damage": "2d8+1 Slashing",
+      "skill": "Blades",
+      "cost": 80,
+      "keywords": ["Bladed", "Two-Handed"]
+    },
+    {
+      "name": "Greatsword",
+      "damage": "2d8+3 Slashing",
+      "skill": "Blades",
+      "cost": 150,
+      "keywords": ["Bladed", "Two-Handed"]
+    },
+    {
+      "name": "Hatchet",
+      "damage": "1d6+1 Slashing",
+      "skill": "Blades",
+      "cost": 10,
+      "keywords": ["Bladed", "Thrown"]
+    },
+    {
+      "name": "Hand Axe",
+      "damage": "2d6+1 Slashing",
+      "skill": "Blades",
+      "cost": 15,
+      "keywords": ["Bladed"]
+    },
+    {
+      "name": "Cudgel",
+      "damage": "2d4 Bludgeoning",
+      "skill": "Blunt",
+      "cost": 10,
+      "keywords": ["Blunt"]
+    },
+    {
+      "name": "Mace",
+      "damage": "2d6 Bludgeoning",
+      "skill": "Blunt",
+      "cost": 20,
+      "keywords": ["Blunt"]
+    },
+    {
+      "name": "Warhammer",
+      "damage": "2d6+1 Bludgeoning",
+      "skill": "Blunt",
+      "cost": 35,
+      "keywords": ["Blunt", "Hand & a Half"]
+    },
+    {
+      "name": "Maul",
+      "damage": "2d8+1 Bludgeoning",
+      "skill": "Blunt",
+      "cost": 80,
+      "keywords": ["Blunt", "Two-Handed"]
+    },
+    {
+      "name": "Pole-Hammer",
+      "damage": "2d8+3 Bludgeoning",
+      "skill": "Blunt",
+      "cost": 100,
+      "keywords": ["Blunt", "Two-Handed"]
+    },
+    {
+      "name": "Javelin",
+      "damage": "1d6 Piercing",
+      "skill": "Polearms",
+      "cost": 25,
+      "keywords": ["Polearm", "Throne"]
+    },
+    {
+      "name": "Spear",
+      "damage": "1d6 Piercing",
+      "skill": "Polearms",
+      "cost": 15,
+      "keywords": ["Polearm", "Hand & a Half", "Reach"]
+    },
+    {
+      "name": "Glaive",
+      "damage": "1d8 Piercing",
+      "skill": "Polearms",
+      "cost": 40,
+      "keywords": ["Polearm", "Hand & a Half", "Reach"]
+    },
+    {
+      "name": "Halberd",
+      "damage": "1d10+1 Piercing",
+      "skill": "Polearms",
+      "cost": 110,
+      "keywords": ["Polearm", "Two-Handed", "Reach"]
+    },
+    {
+      "name": "Pole-Axe",
+      "damage": "1d10+2 Piercing",
+      "skill": "Polearms",
+      "cost": 140,
+      "keywords": ["Polearm", "Two-Handed", "Reach"]
+    },
+    {
+      "name": "Dagger",
+      "damage": "1d4 Piercing",
+      "skill": "Swift",
+      "cost": 5,
+      "keywords": ["Swift", "Thrown", "Small", "Dagger"]
+    },
+    {
+      "name": "Rapier",
+      "damage": "3d4 Piercing",
+      "skill": "Swift",
+      "cost": 40,
+      "keywords": ["Swift"]
+    },
+    {
+      "name": "Sabre",
+      "damage": "3d4 Slashing",
+      "skill": "Swift",
+      "cost": 40,
+      "keywords": ["Swift"]
+    },
+    {
+      "name": "Sling",
+      "damage": "1d6+2 Bludgeoning",
+      "skill": "Bows",
+      "cost": 5,
+      "keywords": ["Two-Handed", "30m Range"]
+    },
+    {
+      "name": "Short Bow",
+      "damage": "1d6+1d4 Piercing",
+      "skill": "Bows",
+      "cost": 20,
+      "keywords": ["Bows", "Two-Handed", "50m Range"]
+    },
+    {
+      "name": "Longbow",
+      "damage": "2d6 Piercing",
+      "skill": "Bows",
+      "cost": 50,
+      "keywords": ["Bows", "Two-Handed", "100m Range"]
+    },
+    {
+      "name": "Crossbow",
+      "damage": "2d6 Piercing",
+      "skill": "Crossbow",
+      "cost": 60,
+      "keywords": ["Crossbow", "Two-Handed", "75m Range"]
+    },
+    {
+      "name": "Arquebus",
+      "damage": "1D10+1D8+2  Piercing",
+      "skill": "Firearms",
+      "cost": 150,
+      "keywords": ["Firearms", "Two-Handed", "Loading", "Cumbersome", "100m Range"]
+    },
+    {
+      "name": "Flintlock Pistol",
+      "damage": "1D6+2  Piercing",
+      "skill": "Firearms",
+      "cost": 100,
+      "keywords": ["Firearms", "Pistol", "Loading", "50m Range"]
+    },
+    {
+      "name": "Blunderbuss",
+      "damage": "3D4+3  Piercing",
+      "skill": "Firearms",
+      "cost": 150,
+      "keywords": ["Firearms", "Blunderbuss", "Loading", "10m Range", "Two-Handed", "Cumbersome"]
+    },
+    {
+      "name": "Hand Cannon",
+      "damage": "2D12+3 Piercing",
+      "skill": "Firearms",
+      "cost": 0,
+      "keywords": ["Firearms", "Slow Loading", "50m Range", "Two-Handed", "Cumbersome"]
+    },
+    {
+      "name": "Shield",
+      "damage": "-",
+      "skill": "-",
+      "cost": 15,
+      "keywords": [""]
+    },
+    {
+      "name": "Buckler",
+      "damage": "-",
+      "skill": "-",
+      "cost": 15,
+      "keywords": [""]
+    }
+  ]
+  

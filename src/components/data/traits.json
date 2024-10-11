@@ -1,0 +1,386 @@
+[
+    {
+      "name": "Acute Hearing",
+      "description": "Due to your exemplary hearing you gain a blind sight of 20 metres and have +2 to Perception skill checks that require hearing.",
+      "cost": "N/A",
+      "prerequisites": ["1D8 Perception"]
+    },
+    { 
+      "name": "Advanced First Aid",
+      "description": "Whenever you heal a creature using the First Aid trait you will heal them for an additional 1D6.",
+      "cost": "N/A",
+      "prerequisites": ["1D8 Medicine" ,"First Aid"]
+    },
+    { 
+      "name": "Ambidextrous",
+      "description": "You no longer receive the -2 penalty to attack rolls for making attacks with a weapon in your off-hand.",
+      "cost": "N/A",
+      "prerequisites": ["1D8 Any Fighting Skill" ,"1D6 Agility"]
+    },
+    { 
+      "name": "Battlemage",
+      "description": "You only require one hand free to cast a spell. Two-handed weapons are only considered to take up one hand for the purpose of spell casting.",
+      "cost": "N/A",
+      "prerequisites": ["1D6 in any Fighting Skill and and Arcane or Religious Domain"]
+    },
+    { 
+      "name": "Berserker",
+      "description": "While not wearing any armour as a free action you may enter what is referred to as a berserk state, until the start of your next turn. While in this state you may reroll rolls of a 1 for melee attack rolls and damage rolls with melee weapons. Additionally, the damage reduction dice afforded to you by the unarmoured defence trait is increased to 1D6+2 while you are in a berserk state. At the start of your next turn you may opt to continue your berserk state with no action required but you must pay the Exertion cost again.",
+      "cost": "1",
+      "prerequisites": ["1D8 Endurance", "Unarmoured Defence"]
+    },
+    { 
+      "name": "Berserker’s Fury",
+      "description": "While you are in a berserk state you gain +2 to damage with all melee attacks.",
+      "cost": "N/A",
+      "prerequisites": ["1D10 Endurance", "Beserker"]
+    },
+    { 
+      "name": "Brave",
+      "description": "When you make a save against being frightened you may gain +4 to the roll. Additionally, if you pass a save against becoming frightened, all allies who witnessed your bravery gain +2 to the next save against being frightened they make this combat. ",
+      "cost": "N/A",
+      "prerequisites": ["1D8 Willpower"]
+    },
+    { 
+      "name": "Brawny",
+      "description": "You count as one size category larger than you are for the purposes of making the grab action. Additionally, when you fail an athletics skill check you may expend 1 exertion and add 4 to the roll.",
+      "cost": "1",
+      "prerequisites": ["1D6 Strength"]
+    },
+    { 
+      "name": "Bulwark",
+      "description": "Your bonus to Evasion from shields and bucklers now covers attacks from your side hexes. Additionally, when you are wielding a shield the durability of any armour you are wearing is increased by 2.",
+      "cost": "N/A",
+      "prerequisites": ["1D6 Endurance"]
+    },
+    { 
+      "name": "Close Quarters Marksman",
+      "description": "Allows a Firearm to be used while engaged at a -2 penalty instead of the usual -4. If the Firearm has the pistol keyword it can be used at no penalty ",
+      "cost": "N/A",
+      "prerequisites": ["1D8 Firearms", "1D8 Agility"]
+    },
+    { 
+      "name": "Combat Manoeuvre",
+      "description": "As a minor action, you may allow an ally within 30 metres to immediately move as a reaction.",
+      "cost": "1",
+      "prerequisites": ["1D6 Persuasion"]
+    },
+    { 
+      "name": "Combat Swap",
+      "description": "As a reaction, you may allow two of your allies (including yourself) that are adjacent to each other within 30 metres of you to swap positions with each other. They can also use this move to adjust their facings freely. This swap does not incur attacks of opportunity.",
+      "cost": "1",
+      "prerequisites": ["1D4 Persuasion"]
+    },
+    { 
+      "name": "Covering Fire",
+      "description": "When you hit a creature with a ranged attack using a bow, a crossbow or Firearm you may give you allies +2 to attack rolls made against that creature until the start of your next turn.",
+      "cost": "2",
+      "prerequisites": ["1D6 Bow, Firearms or Crossbows"]
+    },
+    { 
+      "name": "Critical Strikes",
+      "description": "Aimed shots made as a result of an explosion when making an attack roll with an unarmed attack cost no Exertion. Additionally your unarmed attacks deal +2 damage, this damage is in addition to the iron fist trait.",
+      "cost": "N/A",
+      "prerequisites": ["1D8 Boxing"]
+    },
+    { 
+      "name": "Crossbow Expert",
+      "description": "When making ranged attacks with a crossbow while an enemy occupies one of your front hexes you ignore the -4 penalty to your attack rolls.",
+      "cost": "N/A",
+      "prerequisites": ["1D6 Crossbows"]
+    },
+    { 
+      "name": "Crowding Blows",
+      "description": "Whenever you make more than one unarmed melee attack at any single creature in your turn, they have -2 to attack rolls on their next turn.",
+      "cost": "N/A",
+      "prerequisites": ["1D8 Boxing"]
+    },
+    { 
+      "name": "Deft Footwork",
+      "description": "You may use your minor action to shift.",
+      "cost": "N/A",
+      "prerequisites": ["1D10 Acrobatics", "1D10 Agility"]
+    },
+    { 
+      "name": "Devout",
+      "description": "Your character is now a devout and thus is able to wield magic in the form of casting spells. All rules relevant to this can be found in the Magic section of this book. When you take this trait you may immediately choose 4 spells to learn that you have the prerequisites for.",
+      "cost": "N/A",
+      "prerequisites": ["1D6 Willpower", "1D6 Tradition"]
+    },
+    { 
+      "name": "Deulist",
+      "description": "Any damage rolls you make as a result of a melee attack with Swift, Bladed or Blunt weapons without the two-handed or dagger keywords may generate two explosions rather than one.",
+      "cost": "N/A",
+      "prerequisites": ["1D6 Bladed, Blunt or Swift"]
+    },
+    { 
+      "name": "Deulist Intermediate",
+      "description": "When making damage rolls as a result of a melee attack with Swift, Bladed or Blunt weapons without the two-handed or dagger keywords explosions occur on the two highest values that can be rolled on your damage dice",
+      "cost": "N/A",
+      "prerequisites": ["1D8 Bladed, Blunt or Swift"]
+    },
+    { 
+      "name": "Deulist Mastery",
+      "description": "When making damage rolls as a result of a melee attack with Swift, Bladed or Blunt weapons without the two-handed or dagger keywords you may choose to re-roll as many of your damage dice as you wish with for 2 Exertions per dice you re-roll. You can only opt to use this trait once per damage roll.",
+      "cost": "2",
+      "prerequisites": ["1D10 Bladed, Blunt or Swift"]
+    },
+    { 
+      "name": "Elusive",
+      "description": "If you have used your action to disengage, you may use your minor action to attack one of the creatures that you disengaged from. ",
+      "cost": "2",
+      "prerequisites": ["1D6 Agility"]
+    },
+    { 
+      "name": "Evasive",
+      "description": "Whenever a creature makes a melee attack roll against you, you may use your reaction to give yourself +1 evasion against that attack.",
+      "cost": "1",
+      "prerequisites": ["1D6 Agility", "1D8 Any Fighting Skill"]
+    },
+    { 
+      "name": "Fleetfoot",
+      "description": "Your movement speed is increased by 2 metres. ",
+      "cost": "N/A",
+      "prerequisites": ["1D6 Agility"]
+    },
+    { 
+      "name": "Firearms Master",
+      "description": "When you fail a reload check with a weapon with the Loading or Fast Loading keyword you may choose to spend 2 exertions to automatically pass instead.",
+      "cost": "2",
+      "prerequisites": ["1D10 Firearms", "1D10 Agility"]
+    },
+    { 
+      "name": "First Aid",
+      "description": "You may now attempt to heal people using your medical knowledge. After spending 15 uninterrupted minutes tending to someone you may allow them to recover 1D6 health, or 2D6 health if you have a medical kit. You can perform this heal on any conventionally living creature though they must complete a  full rest before they can be healed again.",
+      "cost": "N/A",
+      "prerequisites": ["1D6 Medicine"]
+    },
+    { 
+      "name": "Expert Engineer",
+      "description": "Allows for the creation of more complex mechanical contraptions.",
+      "cost": "N/A",
+      "prerequisites": ["Engineering", "1D8 Mind"]
+    },
+    { 
+      "name": "Giant Slayer",
+      "description": "reatures treat you as if you are one size category larger than you are. Additionally, you gain +2 to damage rolls made against creatures of a larger size category than yours, that are at least of size category large themselves.",
+      "cost": "N/A",
+      "prerequisites": ["1D8 Any Fighting Skill", "1D8 Strength"]
+    },
+    {
+      "name": "Go for the Eyes",
+      "description": "When making an aimed shot with a weapon with the dagger keyword you may choose to aim for the eyes rather than at a more conventional target, causing the target to become blinded for the subsequent 3 turns. At the end of each of the target's turns they may make Strength Endurance save with a threshold of the average of your Agility attribute dice and Swift Weapons dice.",
+      "cost": "N/A",
+      "prerequisites": ["1D8 Agility", "1D8 Swift Weapons"]
+    },
+    {
+      "name": "Grappler",
+      "description": "Unarmed attacks made against a creature you have grappled deal an extra +1 damage. Additionally, as an attack you may throw a creature you have grabbed provided you are strong enough to reasonably lift them. If you choose to do so, target a hex within 6 metres of you that you can see to throw them into. The target is hurled through the air into that hex and lands prone.",
+      "cost": "1",
+      "prerequisites": ["1D8 Athletics", "1D8 Boxing"]
+    },
+    {
+      "name": "Iron Fist",
+      "description": "Your unarmed attacks now deal 2D6 bludgeoning damage and your unarmed attacks count as dealing 2 additional damage for the purposes of determining whether a character has been knocked down by damage.",
+      "cost": "N/A",
+      "prerequisites": ["1D10 Boxing", "1D6 Endurance"]
+    },
+    {
+      "name": "Leg Sweep",
+      "description": "When you hit a creature with an unarmed attack you may make a contested Acrobatics, Athletics or boxing skill check with the target creature against their Acrobatics or Athletics, on a success the target is knocked prone.",
+      "cost": "2",
+      "prerequisites": ["1D6 Boxing", "1D6 Acrobatics or Athletics"]
+    },
+    {
+      "name": "Mighty Blow",
+      "description": "When you hit a melee attack with a two-handed weapon, you may add your Strength attribute dice to your damage roll.",
+      "cost": "2",
+      "prerequisites": ["1D6 any Fighting Skill", "1D8 Strength"]
+    },
+    {
+      "name": "Mounted Combatant",
+      "description": "Mobility is key in combat and you take full advantage of this by fighting mounted on the back of a beast. You do not suffer the negative effects from mounted combat.",
+      "cost": "N/A",
+      "prerequisites": ["1D6 Animal Handling", "1D6 any Fighting Skill"]
+    },
+    {
+      "name": "Multi-Shot",
+      "description": "Whenever you make a ranged attack with a bow as part of an attack action you may immediately make a second ranged attack with that same bow as a minor action.",
+      "cost": "N/A",
+      "prerequisites": ["1D10 Bows"]
+    },
+    {
+      "name": "Opportunist",
+      "description": "Whenever you would make a reaction you may instead opt not to expend any reaction and instead expend exertion.",
+      "cost": "2",
+      "prerequisites": ["1D8 Agility"]
+    },
+    {
+      "name": "Ordered Assault",
+      "description": "As a minor action you may allow one of your allies within 30 metres of you to immediately make a single attack.",
+      "cost": "3",
+      "prerequisites": ["1D8 Persuasion"]
+    },
+    {
+      "name": "Piercing Shot",
+      "description": "When you hit an attack using a swift weapon, bow or crossbow, you may opt to halve (rounded up) your opponents defence value against the attack.",
+      "cost": "2",
+      "prerequisites": ["1D8 Swift weapons, Crossbows, Firearms or Bows", "1D8 Agility"]
+    },
+    {
+      "name": "Pistol Expert",
+      "description": "You may simultaneously reload two Firearms with a single reloading check if both Firearms have the Pistol Keyword.",
+      "cost": "N/A",
+      "prerequisites": ["1D6 Firearms", "1D6 Agility"]
+    },
+    {
+      "name": "Polearm Master",
+      "description": "Whenever you hit a creature with a melee attack using a polearm you may make the attack count as a charge regardless of whether you charged or not.",
+      "cost": "2",
+      "prerequisites": ["1D8 Polearms"]
+    },
+    {
+      "name": "Precision Strike",
+      "description": "Whenever you make an attack roll against a creature you may impose a -2 to the roll, if you hit then the attack is an aimed shot. If you explode on the hit when using this ability, it costs 0 Exertion.",
+      "cost": "1",
+      "prerequisites": ["1D8 any Fighting Skill or Evocation"]
+    },
+    {
+      "name": "Rallying Cry",
+      "description": "As a minor action, you may allow one of your allies within 30 metres of you who is currently under the effects of a spell to immediately repeat their save in an attempt to end the effect.",
+      "cost": "2",
+      "prerequisites": ["1D8 Persuasion"]
+    },
+    {
+      "name": "Reckless Attack",
+      "description": "When you make a melee attack with a weapon without the dagger keyword you may impose a -2 to the roll, although if you hit the attack you may add your Strength attribute dice to your damage roll.",
+      "cost": "2",
+      "prerequisites": ["1D10 any Fighting Skill", "1D8 Strength"]
+    },
+    {
+      "name": "Redirect",
+      "description": "When a creature misses a melee attack against you, you may use your reaction to force your attacker to immediately make the same melee attack against another creature adjacent to them.",
+      "cost": "1",
+      "prerequisites": ["1D10 any Fighting Skill"]
+    },
+    {
+      "name": "Riposte",
+      "description": "If a creature in your front hexes misses a melee attack against you, you may make an attack of opportunity against them.",
+      "cost": "1",
+      "prerequisites": ["1D8 any Fighting Skill"]
+    },
+    {
+      "name": "Sabotage",
+      "description": "When a creature adjacent to you makes a save, you may use your reaction to give them -2 to the roll.",
+      "cost": "1",
+      "prerequisites": ["1D6 Sleight of Hand", "1D8 Agility"]
+    },
+    {
+      "name": "Sentinel",
+      "description": "When making an attack of opportunity, if you hit you may spend 1 Exertion to reduce the movement speed of the target to 0m until the start of their next turn.",
+      "cost": "1",
+      "prerequisites": ["1D6 Endurance", "1D6 Perception"]
+    },
+    {
+      "name": "Selfless Defender",
+      "description": "When a creature adjacent to you is attacked, you may use your reaction to become the target of this attack yourself, any damage taken as a result of this attack is reduced by 1D6 after defence calculation.",
+      "cost": "1",
+      "prerequisites": ["1D6 Endurance", "1D6 any Fighting skill"]
+    },
+    {
+      "name": "Sneak Attack",
+      "description": "When you hit a creature with a ranged attack or with a swift weapon while you are in stealth you may opt to add 6D4 to the damage roll.",
+      "cost": "3",
+      "prerequisites": ["Swift Weapons 1D8 or Bows 1D8 or Crossbows 1D8 or Firearms 1D8", "Agility 1D8"]
+    },
+    {
+      "name": "Squad Sight",
+      "description": "When you make a ranged attack you may target creatures in the eyeline of an ally within 20 metres of you as well as on your own.",
+      "cost": "1",
+      "prerequisites": ["1D8 Bows or Crossbows"]
+    },
+    {
+      "name": "Strong Arm",
+      "description": "The range at which you can throw a thrown weapon and the range that you can throw a target with the Grappler trait is increased by half the maximum value that can be rolled on your Strength attribute dice in metres.",
+      "cost": "N/A",
+      "prerequisites": ["1D6 any Fighting Skill"]
+    },
+    {
+      "name": "Superior Reflexes",
+      "description": "If you have at least one hand free and are hit with a bow, crossbow, firearm or thrown weapon, you may use your reaction to make a Boxing skill check, if the result of this roll is equal to or greater that the result of the ranged attack roll made against you then you catch the projectile and the attack is negated. You may choose to immediately drop the projectile, keep a hold of it or throw it back at the attacker with a throwing check dealing your Strength attribute dice in damage of the same damage type as the weapon, provided they are within 30m of you.",
+      "cost": "2",
+      "prerequisites": ["1D10 Boxing", "1D6 Perception"]
+    },
+    {
+      "name": "Sweeping Blow",
+      "description": "When you make a melee attack with a melee weapon, you may opt to target all creatures in your front hexes with that attack.",
+      "cost": "2",
+      "prerequisites": ["1D12 Strength or 1D12 Agility", "1D12 any Fighting Skill"]
+    },
+    {
+      "name": "Tactical Retreat",
+      "description": "As a minor action, you may allow one of your allies within 30 metres of you to immediately take the disengage action and move as their reaction.",
+      "cost": "2",
+      "prerequisites": ["1D10 Persuasion"]
+    },
+    {
+      "name": "Tactician",
+      "description": "When rolling initiative, you and your allies may have +2 to their initiative roll. Additionally, after you roll initiative, you may opt to swap the initiatives of up to 4 willing creatures.",
+      "cost": "2",
+      "prerequisites": ["1D6 Willpower"]
+    },
+    {
+      "name": "Thousand Cuts",
+      "description": "When making an attack as an action with a weapon with the dagger keyword, you may make an additional attack as part of that same action.",
+      "cost": "2",
+      "prerequisites": ["1D12 Agility", "1D12 Swift Weapons"]
+    },
+    {
+      "name": "Trick Shot",
+      "description": "When making a ranged attack, you may ignore up to five creatures or pieces of cover directly between you and your target for the purposes of them being in the way.",
+      "cost": "1",
+      "prerequisites": ["1D6 any Fighting Skill", "1D6 Agility"]
+    },
+    {
+      "name": "Unarmoured Defences",
+      "description": "While you are not wearing any armour your evasion is increased by 1 and you reduce any instance of damage by 1D4+2 although this dice cannot explode. The only exception to this is that this damage reduction cannot reduce damage taken from overspending exertion.",
+      "cost": "N/A",
+      "prerequisites": ["1D6 Agility or Endurance"]
+    },
+    {
+      "name": "Unrelenting Charge",
+      "description": "If you move 6 or more metres in a straight line towards an enemy you may make a contested Athletics skill check against their Athletic or Acrobatics. If you succeed, you may choose to knock them prone or push them back 4 metres.",
+      "cost": "1",
+      "prerequisites": ["1D6 Athletics"]
+    },
+    {
+      "name": "Unstoppable Berserker",
+      "description": "While you are in a berserk state you cannot be rendered charmed, frightened, unconscious or incapacitated.",
+      "cost": "N/A",
+      "prerequisites": ["1D10 Endurance", "1D6 Willpower", "Berserker"]
+    },
+    {
+      "name": "Vigilant",
+      "description": "When making an Agility save to avoid taking damage, you take half damage on a failed save and a quarter of the damage on a successful save.",
+      "cost": "N/A",
+      "prerequisites": ["1D10 Agility"]
+    },
+    {
+      "name": "Wicked Knife",
+      "description": "Whenever you make an attack roll against a creature with a weapon that has the dagger key word you may impose a -2 to the roll, if you hit then the attack is an aimed shot. Additionally, when making an Aimed shot with a weapon with the dagger key word along with the regular aimed shots you may choose one of the following: Slice Artery, Cut Tendon, or Puncture Lung.",
+      "cost": "2",
+      "prerequisites": ["1D8 Agility", "1D8 Swift Weapons"]
+    },
+    {
+      "name": "Witch Hunter",
+      "description": "You gain +2 to saves against spells. Additionally, when you damage a creature that is concentrating on a spell they have -2 to the save required to maintain concentration on that spell.",
+      "cost": "N/A",
+      "prerequisites": ["1D6 any Fighting Skill", "1D6 Arcane or 1D6 Tradition"]
+    },
+    {
+      "name": "Wizard",
+      "description": "Your character is now a wizard and thus is able to wield magic in the form of casting spells. All rules relevant to this can be found in the Magic section of this book. When you take this trait you may immediately choose 4 spells to learn that you have the prerequisites for.",
+      "cost": "N/A",
+      "prerequisites": ["1D6 Mind", "1D6 Arcane"]
+    }
+]

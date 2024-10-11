@@ -1,0 +1,44 @@
+.inventory-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column */
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+  
+.weapon-selection, .armor-selection, .carried-items {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.weapon-selection h3, .armor-selection h3, .carried-items h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.weapon-selection select, .armor-selection select, .carried-items textarea {
+    width: 100%;
+    max-width: 100000px; /* Keeping original dropdown width, not shorter */
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 8px;
+    box-sizing: border-box; /* Ensures padding and borders are included in width */
+}
+
+.carried-items textarea {
+    min-height: 100px;
+    resize: vertical; /* Allow resizing but only vertically */
+}
+
+textarea::placeholder {
+    color: #888; /* Placeholder text styling */
+}

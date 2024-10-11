@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Artisan",
+      "description": "Pick one crafting skill, any items created using that skill takes half the time to make."
+    },
+    {
+      "name": "Caravaneer",
+      "description": "When hearing someone speak a common language you do not know you will still be able to decipher the general gist of what they are saying."
+    },
+    {
+      "name": "Con Artist",
+      "description": "You are an expert in creating false identities to take on as the need arises and are able to forge documents, such as official papers or personal letters to help sell these false identities. You gain +4 to any checks made to forge signatures and documents. Additionally, you receive +4 to deception and performance checks made to pass yourself off as someone you're not."
+    },
+    {
+      "name": "Court Scholar",
+      "description": "You may pick a specialist field from the list below. Whenever you make a tradition or lore check in relation to your chosen field you may gain +2 to the check: Astronomy, Creative Arts, Economics, History, Military, Myths & Legends"
+    },
+    {
+      "name": "Deckhand",
+      "description": "Whenever you are on a boat or sea vessel you gain +2 to all skill checks involving the boat such as climbing it, maintaining or manning it, in addition any penalties incurred whilst on the boat such as it rocking and removing movement are ignored. In none stressful conditions all checks count as automatic passes."
+    },
+    {
+      "name": "Druidic Elder",
+      "description": "You may reroll 1s when making animal handling and nature  skill checks. Additionally, once per day if you are in the wilderness you make a naturalism or alchemy check with a threshold of 8 in order to find a substitute for an alchemical ingredient worth no more than 20 Silver."
+    },
+    {
+      "name": "Farmer",
+      "description": "As a farm hand you quickly learn to be very handy. You may add 1D4 to any skill check made to do menial practical tasks such as repairing a cart wheel or the like. Additionally, as a farmer you will own some small homestead made up of a farmhouse, a number of outbuildings and land to work somewhere in the world."
+    },
+    {
+      "name": "Servant of the Faith",
+      "description": "Once per day you  may take 1 minute to bless one vial of water, turning it into holy water. This holy water can be applied to a weapon as a minor action, making the weapon deal holy damage to undead. Additionally, the holy water may be thrown at an undead to deal 2D6+2 holy damage."
+    },
+    {
+      "name": "Knife in the Dark",
+      "description": "If you enter a combat by surprise the first attack you make in the first turn of combat may reroll 1s to hit and damage."
+    },
+    {
+      "name": "Medic",
+      "description": "The threshold of medicine checks to stabilise a creature is reduced to 5. Additionally, any creature stabilised by you will heal by 1 health for each point you passed the medicine check by to a maximum of 5."
+    },
+    {
+      "name": "City Watch",
+      "description": "As a member of such a tight nit organisation you are always able to find shelter and a meal in built up areas with your kin in the city watch."
+    },
+    {
+      "name": "Theives Guild",
+      "description": "As a member of the guild you can often find sanctuary in guild hideouts in order to keep your head down and hide from the law. You also have ready connections with fences to deal with your ill gotten gains. Additionally, when visiting new towns and cities you are able to easily make connections with the underground organisations in these settlements, as you recognise their subtle signs and markers."
+    },
+    {
+      "name": "Mercenary",
+      "description": "As a member of the mercenaries guild you have access to all their amenities while in a built up city or town. This includes free medical attention and access to many of their vendors."
+    },
+    {
+      "name": "Minstrel",
+      "description": "When staying in taverns and inns you may perform songs, poems or tell stories to the establishment’s patrons in return for a free meal and bed for the night. Additionally, at the end of your nights work you may make a performance check with a threshold of 6. For every point that you pass this check by you may roll 1D4 and gain that much silver in tips from happy listeners."
+    },
+    {
+      "name": "Mountaineer",
+      "description": "The rate at which you heal in the wild is not affected by hazardous conditions."
+    },
+    {
+      "name": "Student of Magery",
+      "description": "You may learn 1 spell with a prerequisite of 1D4 in any skill from the arcane or religious domains. If you do not currently have any dice in the domain that your selected spell belongs to then it is set to 1D4. "
+    },
+    {
+      "name": "Young Noble",
+      "description": "As a young noble, naturally you come from a family of reasonable wealth. As such, somewhere in the world you will have a small stately home, longhouse or castle to use at your leisure. It will be fitted with a few maids and possibly a butler. Additionally, in the region that your family originates your name is known. This may be a good or a bad thing depending on who you are talking to but nonetheless it will shape many of the conversations in your hometown."
+    },
+    {
+      "name": "Warrior of the Wild",
+      "description": "You are always able to hunt and forage sufficient food to feed yourself (and only yourself) while travelling."
+    }
+  ]
+  

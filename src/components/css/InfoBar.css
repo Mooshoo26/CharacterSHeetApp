@@ -1,0 +1,68 @@
+.character-info-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e6e6e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .character-info-bar label {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .character-info-bar input,
+  .character-info-bar select {
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .name-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .parent-races-section {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .upbringing-section {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .parent-races-section label {
+    flex: 1;
+    margin-right: 20px;
+    padding: 8px;
+  }
+  
+  .advancement-points-section {
+    flex: 1;
+    padding: 25px;
+    width: 140px;
+  }
+
+  .tooltip {
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 100;
+    margin-top: 5px;
+  }
+  
+  

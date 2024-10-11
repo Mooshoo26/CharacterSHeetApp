@@ -1,0 +1,45 @@
+[
+    {
+      "name": "Cloth",
+      "defence": 3,
+      "durability": 9,
+      "cost": 50
+    },
+    {
+      "name": "Padded",
+      "defence": 4,
+      "durability": 12,
+      "cost": 80
+    },
+    {
+      "name": "Leather",
+      "defence": 5,
+      "durability": 15,
+      "cost": 140
+    },
+    {
+      "name": "Studded",
+      "defence": 6,
+      "durability": 20,
+      "cost": 200
+    },
+    {
+      "name": "Chain",
+      "defence": 6,
+      "durability": 20,
+      "cost": 80
+    },
+    {
+      "name": "Scale",
+      "defence": 8,
+      "durability": 25,
+      "cost": 140
+    },
+    {
+      "name": "Plate",
+      "defence": 10,
+      "durability": 30,
+      "cost": 200
+    }
+  ]
+  
